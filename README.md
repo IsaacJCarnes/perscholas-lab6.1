@@ -1,0 +1,8 @@
+- How does TypeScript enforce type safety in this object-oriented program?
+  - Typescript made sure that when import a class I only accessed available properties or methods.
+- How did inheritance reduce code duplication for PhysicalProduct and DigitalProduct?
+  - Having common methods in the Product model allowed me to use displayDetails on both PhysicalProduct and DigitalProduct without defining them in each subclass.
+- What are the benefits of using encapsulation and access modifiers (public, private, protected) in this context?
+  - Encapsulation allows us to keep some properties or methods inaccessible from outside, and to define which things should be available when the class is imported.
+- If you had to add a new type of product (e.g., a SubscriptionProduct), how would polymorphism make this extension straightforward?
+  - Polymorphism would make it so after extending the Product class, SubscriptionProduct would have all the properties and methods available in Product, and could have additional properties added such as subscriptionLength
